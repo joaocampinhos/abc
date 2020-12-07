@@ -6,7 +6,7 @@ addEventListener('fetch', event => {
  * @param {Request} request
  */
 async function handleRequest(request) {
-  return new Response('fds', {
+  return new Response('Cenas fixes!', {
     headers: { 'content-type': 'text/plain' },
   })
 }
